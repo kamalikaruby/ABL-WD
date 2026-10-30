@@ -1,5 +1,18 @@
 # Web Development Activity-Based Learning – Three Case Studies
 
+## Student Details
+
+- **Name:** Kamalika
+- **Roll Number:** 26001339
+- **Branch:** CSM
+- **Section:** CSM7
+
+## Selected Case Studies
+
+1. **Personal Portfolio**
+2. **Online Shopping**
+3. **User Registration and Login Interface**
+
 This folder contains three beginner-friendly responsive website projects built with **HTML5 and CSS3**.
 
 ## Projects
