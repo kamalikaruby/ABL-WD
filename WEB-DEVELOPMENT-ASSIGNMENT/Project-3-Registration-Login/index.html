@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Account Access | Create Account & Login</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><a class="brand" href="#">Account<span>Hub</span></a><p>Simple and secure account forms</p></header>
+<main class="layout">
+<section class="welcome"><p class="eyebrow">Welcome</p><h1>Your next step<br>starts here.</h1><p>Create an account or sign in to continue. This is a front-end demonstration of form design using HTML and CSS.</p><div class="welcome-icon">🔐</div></section>
+<div class="forms">
+<section class="form-card"><h2>Create Account</h2><p class="muted">Register with your details</p>
+<form action="#" method="get">
+<label for="fullname">Full name</label><input id="fullname" name="fullname" type="text" placeholder="Enter your full name" required>
+<label for="email">Email address</label><input id="email" name="email" type="email" placeholder="name@example.com" required>
+<label for="new-password">Create password</label><input id="new-password" name="password" type="password" placeholder="At least 8 characters" minlength="8" required>
+<label for="confirm-password">Confirm password</label><input id="confirm-password" name="confirm-password" type="password" placeholder="Re-enter password" minlength="8" required>
+<label class="check"><input type="checkbox" required> I agree to the terms and conditions</label>
+<button type="submit">Create Account</button>
+</form></section>
+<section class="form-card login"><h2>Sign In</h2><p class="muted">Welcome back</p>
+<form action="#" method="get">
+<label for="login-email">Email address</label><input id="login-email" name="email" type="email" placeholder="name@example.com" required>
+<label for="login-password">Password</label><input id="login-password" name="password" type="password" placeholder="Enter your password" required>
+<div class="form-row"><label class="check"><input type="checkbox" name="remember"> Remember me</label><a href="mailto:support@example.com?subject=Password%20Reset">Forgot password?</a></div>
+<button type="submit">Login</button>
+</form></section>
+</div></main>
+<footer><p>© 2026 AccountHub · Learning project built with HTML and CSS</p><p><strong>Note:</strong> Forms demonstrate front-end validation only. Real account creation and authentication require a secure backend.</p></footer>
+</body></html>
